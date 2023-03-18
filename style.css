@@ -124,7 +124,7 @@ p.p .creator:hover {
 div#laser {
     position: absolute;
     left: 10%;
-    top: 100vh;
+    margin-top: 100vh;
     background-color: var(--c-bg-color2);
     width: 80%;
     text-align: center;
