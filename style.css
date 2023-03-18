@@ -1,142 +1,154 @@
 @import url(https://unknown-clan.github.io/src/main.css);
 
-:root{
-    --c-bg-color: rgb(49, 49, 49);
-    --c-bg-color2: rgb(70, 70, 70);
+:root {
+  --c-bg-color: rgb(49, 49, 49);
+  --c-bg-color2: rgb(70, 70, 70);
 }
 
 .header {
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    background-color: var(--c-bg-color);
-    padding: 1% 10px;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-    transition: 0.5s;
-    z-index: 10;
-    zoom: 1.3;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color: var(--c-bg-color);
+  padding: 1% 10px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  z-index: 10;
+  zoom: 1.3;
 }
 
 .header a.logo:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .header a {
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    height: 23px;
-    max-height: 23px;
-    min-height: 23px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: bold;
-    color: white;
-    margin-right: 20px;
-    transition: 0.5s;
-    transition: 0.5s;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  height: 23px;
+  max-height: 23px;
+  min-height: 23px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  color: white;
+  margin-right: 20px;
+  transition: 0.5s;
+  transition: 0.5s;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .header a:hover {
-    box-shadow: 0px 0px 0px 1px white;
-    transition: 0.5s;
-    background-color: var(--c-bg-color2);
+  box-shadow: 0px 0px 0px 1px white;
+  transition: 0.5s;
+  background-color: var(--c-bg-color2);
 }
 
 .header a.creator {
-    background-color: var(--c-bg-color2)
+  background-color: var(--c-bg-color2);
 }
 
 .header-right {
-    float: right;
+  float: right;
 }
 
 /* MOBILE ONLY */
-@media (pointer:coarse) {
-
-a.logo:hover{
+@media (pointer: coarse) {
+  a.logo:hover {
     background-color: transparent;
-}
+  }
 }
 
 @media screen and (max-width: 590px) {
-    .header {
-        position: relative;
-    }
+  .header {
+    position: relative;
+  }
 
-    .header a {
-        display: block;
-        float: none;
-        text-align: center;
-        padding: 10 5px;
-        font-weight: normal;
-    }
+  .header a {
+    display: block;
+    float: none;
+    text-align: center;
+    padding: 10 5px;
+    font-weight: normal;
+  }
 
-    .header-right {
-        float: none;
-    }
+  .header-right {
+    float: none;
+  }
 
-    .logo {
-        font-size: 50%;
-    }
-
+  .logo {
+    font-size: 50%;
+  }
 }
 
 div#main {
-    background-color: red;
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(304deg, rgba(0,0,0,0) 50%, rgba(40,40,40,0.1) 100%);
-    pointer-events: none;
+  background-color: red;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    304deg,
+    rgba(0, 0, 0, 0) 50%,
+    rgba(40, 40, 40, 0.1) 100%
+  );
+  pointer-events: none;
 }
 
-h1.title {
-    color: white;
-    text-align: center;
-    margin: 20px;
-    text-shadow: 2px 2px 2px gray;
-}
+/* h1.title {
+  color: white;
+  text-align: center;
+  margin: 50px;
+  text-shadow: 2px 2px 2px gray;
+} */
 
 p.p {
-    color: white;
-    text-align: center;
-    font-size: 120%;
+  color: white;
+  text-align: center;
+  font-size: 120%;
 }
 
 p.p .creator {
-    background-color: gray;
-    color: white;
-    border-radius: 2px;
-    text-decoration: none;
-    font-size: 120%;
+  background-color: gray;
+  color: white;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 120%;
 }
 
 p.p .creator:hover {
-    box-shadow: 0px 0px 0px 0.5px white;
+  box-shadow: 0px 0px 0px 0.5px white;
 }
 
 div#laser {
-    position: absolute;
-    left: 10%;
-    margin-top: 100vh;
-    background-color: var(--c-bg-color2);
-    width: 80%;
-    text-align: center;
-    height: 100px;
+  position: absolute;
+  left: 10%;
+  margin-top: 100vh;
+  background-color: var(--c-bg-color2);
+  width: 80%;
+  text-align: center;
+  height: 100px;
 }
 
 div#laser h1 {
-    color: white;
-    margin: 20px;
+  color: white;
+  margin: 20px;
 }
 
 div#laser p {
-    color: white;
-    margin-bottom: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+p.welcomeText {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  box-shadow: 0px 0px 5px 0.5px gray;
+  zoom: 1.5;
+  padding: 10px 40px;
 }
