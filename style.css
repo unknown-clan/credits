@@ -87,6 +87,15 @@ a.logo:hover{
 
 }
 
+div#main {
+    background-color: red;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(304deg, rgba(0,0,0,0) 50%, rgba(40,40,40,0.1) 100%);
+    pointer-events: none;
+}
+
 h1.title {
     color: white;
     text-align: center;
