@@ -114,13 +114,12 @@ p.p {
 p.p .creator {
   background-color: gray;
   color: white;
-  border-radius: 2px;
   text-decoration: none;
   font-size: 120%;
 }
 
 p.p .creator:hover {
-  box-shadow: 0px 0px 0px 0.5px white;
+  background: linear-gradient(340deg, gray 30%, rgb(73, 150, 105) 60%);
 }
 
 div#laser {
