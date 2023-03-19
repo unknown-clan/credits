@@ -62,7 +62,7 @@ p.p .creator:hover {
   background-color: rgb(63, 94, 185);
 }
 
-div#laser {
+div#credits {
   position: absolute;
   left: 10%;
   margin-top: 100vh;
@@ -73,12 +73,12 @@ div#laser {
   padding-bottom: 10px;
 }
 
-div#laser h1 {
+div#credits h1 {
   color: white;
   margin: 20px;
 }
 
-div#laser p {
+div#credits p {
   color: white;
   margin-bottom: 10px;
 }
